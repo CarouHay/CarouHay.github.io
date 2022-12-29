@@ -1,0 +1,98 @@
+# WhatATheme
+markdown: kramdown
+
+# URL of the Site
+url: ''
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
+
+# Title of the Site
+title: GoodyCS跨境小店
+# Description of the Site
+description: 淘寶代購，閒魚代購，支付寶微信跨境服務，人工在線服務，安全放心</br>優惠券二維碼發送客服可享5CNY手續費優惠
+# URL of Image of the Site
+site-image: 
+# Keywords of the Site
+site-keywords: 支付寶代付,淘寶,閒魚,微信代付,支付寶充值,微信充值,淘寶代購,閒魚代購
+# URL for the Image of custom Favicon
+favicon-url: /assets/images/meta.jpg
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: /assets/images/809bf55ef05609b05669b1feb71b996.jpg
+
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: 773672199@qq.com
+facebook_username: thedevslot
+whatsapp: 85297119658
+# twitter_username: thedevslot
+# instagram_username: thedevslot
+# linkedin_username: thedevslot
+# github_username:  thedevslot
+# youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
+# reddit_username: /
+# behance_username: /
+# dribbble_username: /
+# spotify_username: /
+
+# Google Analytics
+google-analytics: UA-163806439-1
+
+# Disqus
+disqus-shortname: GoodyCS
+
+# Name of the Author
+author-name: GoodyCS Ultimate Shop
+# URL for the Image of the Author
+author-image: /assets/images/meta.jpg
+# 60 Words About the Author
+author-about: 我們是一家成立於2021年的專注於跨境業務的公司，包含支付寶微信匯兌，大陸商品代購及轉運，以及跨境運營咨詢的服務，秉持客戶至上以及效率第一的經營理念，營業時間30s內回復，3分鐘結束辦理，於淘寶以及ins均有註冊店鋪，服務超過1000+單
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/thedevslot
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
